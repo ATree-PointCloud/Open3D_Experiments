@@ -1,0 +1,31 @@
+input:
+  path: data/fragment.ply
+
+roi:
+  enabled: true
+  x_range: [1.0, 3.5]
+  y_range: [1.0, 2.2]
+  z_range: [0.8, 2.3]
+
+voxel:
+  enabled: true
+  voxel_size: 0.01
+
+denoise:
+  enabled: false
+  nb_neighbors: 5
+  std_ratio: 2.0
+
+ransac:
+  enabled: true
+  distance_threshold: 0.02
+  ransac_n: 3
+  num_iterations: 100
+
+dbscan:
+  enabled: true
+  eps: 0.05
+  min_points: 10
+
+visualization:
+  enabled: true
