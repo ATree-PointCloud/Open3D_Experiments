@@ -1,6 +1,6 @@
 # Open3D Point Cloud Preprocessing Pipeline
 
-A lightweight point cloud preprocessing pipeline based on Open3D.
+A lightweight and configurable point cloud preprocessing pipeline based on Open3D, designed for reproducible experiments and modular processing.
 
 ## Pipeline
 

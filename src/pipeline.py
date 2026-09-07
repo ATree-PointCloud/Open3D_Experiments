@@ -45,3 +45,10 @@ def run_pipeline(config):
             visualize_clusters(non_plane_pcd, labels)
         else:
             visualize_pcd(non_plane_pcd)
+
+    return {
+        "pcd": pcd,
+        "non_plane_pcd": non_plane_pcd,
+        "plane_model": plane_model,
+        "labels": labels
+    }
